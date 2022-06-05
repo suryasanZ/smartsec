@@ -1,5 +1,5 @@
 setInterval(function () {
-    fetch("http://https://smart-sec.herokuapp.com/api")
+    fetch("https://smart-sec.herokuapp.com/api")
       .then((hasil) => hasil.json())
       .then((res) => {
         console.log(res);
