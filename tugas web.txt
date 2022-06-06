@@ -1,0 +1,18 @@
+      <div class="card text-center">
+        <div class="card-header">Lampu</div>
+        <div class="card-body">
+          <h1><span id="lampu"><span id="status">OFF</span></h1>
+          <div class="form-check form-switch" style="font-size: 50px">
+            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" onchange="ubahstatus(this.checked)" />
+          </div>
+        </div>
+      </div>
+
+
+echo "# smartsecuriteam1" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/suryasanZ/smartsecuriteam1.git
+git push -u origin main
